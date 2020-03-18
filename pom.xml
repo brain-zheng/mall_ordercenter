@@ -21,35 +21,15 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.0.RELEASE</version>
+    <version>2.1.8.RELEASE</version>
     <relativePath/>
   </parent>
 
   <properties>
-    <account.version>1.0.0-SNAPSHOT</account.version>
-    <account.client.version>1.0.0-SNAPSHOT</account.client.version>
+    <account.version>1.0.0</account.version>
+    <account.client.version>1.0.0</account.client.version>
     <file_encoding>UTF-8</file_encoding>
   </properties>
-
-  <repositories>
-    <repository>
-      <id>alimaven</id>
-      <name>aliyun maven</name>
-      <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-    </repository>
-    <repository>
-      <id>nexus</id>
-      <name>Nexus Repository</name>
-      <url>http://localhost:8081/repository/maven-central/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <!--snapshots默认是关闭的,需要开启-->
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <distributionManagement>
     <repository>
@@ -65,17 +45,58 @@
   </distributionManagement>
 
   <dependencies>
+
+    <!-- springboot快速启动依赖-->
+    <!-- web模块-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-
+    <!-- 测试模块-->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>2.2.5.RELEASE</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- 数据层依赖 -->
+    <!-- mysql驱动 -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.48</version>
+    </dependency>
+
+    <!-- druid数据源驱动 -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid-spring-boot-starter</artifactId>
+      <version>1.1.21</version>
+    </dependency>
+
+    <!-- mybatis-springboot整合-->
+    <dependency>
+      <groupId>org.mybatis.spring.boot</groupId>
+      <artifactId>mybatis-spring-boot-starter</artifactId>
+      <version>2.1.2</version>
+    </dependency>
+
+    <!-- 工具依赖 -->
+    <!-- lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.12.6</version>
+    </dependency>
+
+    <!-- toString方法 -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.7</version>
+    </dependency>
+
   </dependencies>
 
   <build>

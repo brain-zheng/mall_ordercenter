@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.account.dal.dao.AccountDAO">
+
+    <resultMap id="accountMap" type="com.mall.account.dal.dataobject.AccountDO">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="email" property="email"/>
+        <result column="phone" property="phone"/>
+        <result column="status" property="status"/>
+        <result column="feature" property="feature"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <sql id="account_column">
+        username, password, email, phone, status, feature
+    </sql>
+
+    <sql id="account_column_all">
+        id, <include refid="account_column"/>, create_time, update_time
+    </sql>
+
+    <select id="getById" parameterType="Long" resultMap="accountMap">
+        SELECT 
+            <include refid="account_column_all"/>
+        FROM
+            account
+        WHERE
+            id = #{id}
+    </select>
+
+    <insert id="create" parameterType="com.mall.account.dal.dataobject.AccountDO"
+            useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO account
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            `username`, `password`, email, phone,
+            <if test="feature != null">
+                feature,
+            </if>
+            `status`, create_time, update_time
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            #{username}, #{password}, #{email}, #{phone},
+            <if test="feature != null">
+                #{feature},
+            </if>
+            1, now(), now()
+        </trim>
+    </insert>
+
+    <update id="update" parameterType="com.mall.account.dal.dataobject.AccountDO">
+        UPDATE account
+        <set>
+            <if test="username != null">
+                `username` = #{usernmae},
+            </if>
+            <if test="password != null">
+                `password` = #{password},
+            </if>
+            <if test="email != null">
+                email = #{email},
+            </if>
+            <if test="phone != null">
+                phone = #{phone},
+            </if>
+            <if test="feature != null">
+                feature = #{feature},
+            </if>
+            <if test="status != null">
+                `status` = #{status},
+            </if>
+            update_time = now()
+        </set>
+        where
+            id = #{id}
+            AND
+            `status` = 1;
+    </update>
+
+</mapper>
