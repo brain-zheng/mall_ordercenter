@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>account-client</artifactId>
-  <version>${account.client.version}</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>account-client</name>
 
