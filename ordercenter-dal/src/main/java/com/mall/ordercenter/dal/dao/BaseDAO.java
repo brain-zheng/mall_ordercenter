@@ -1,4 +1,4 @@
-package com.mall.account.dal.dao;
+package com.mall.ordercenter.dal.dao;
 
 /**
  * @author zheng haijain

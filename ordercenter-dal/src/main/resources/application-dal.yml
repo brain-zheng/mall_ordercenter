@@ -3,7 +3,7 @@ Spring:
   datasource:
     druid:
       driver-class-name : com.mysql.jdbc.Driver
-      url : jdbc:mysql://localhost:3306/mall_account?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&connectTimeout=20000&socketTimeout=30000&useSSL=false&useAffectedRows=true
+      url : jdbc:mysql://localhost:3306/mall_order?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&connectTimeout=20000&socketTimeout=30000&useSSL=false&useAffectedRows=true
       username : root
       password : zhaijian12
 
@@ -30,4 +30,4 @@ mybatis:
   # 配置 Mapper XML 地址
   mapper-locations : classpath:mapper/*.xml
   # 配置数据库实体包路径
-  type-aliases-package: com.mall.account.dal.dataobject
+  type-aliases-package: com.mall.ordercenter.dal.dataobject

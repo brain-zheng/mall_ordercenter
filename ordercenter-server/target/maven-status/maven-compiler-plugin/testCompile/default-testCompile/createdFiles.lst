@@ -1,0 +1,4 @@
+com/mall/account/test/dao/AccountDAOTest.class
+com/mall/account/test/dao/UserInfoDAOTest.class
+com/mall/account/test/dao/UserRecvAddressDAOTest.class
+com/mall/account/test/BaseTest.class

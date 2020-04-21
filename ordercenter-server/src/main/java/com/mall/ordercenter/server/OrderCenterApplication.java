@@ -12,13 +12,13 @@ import org.springframework.context.annotation.ImportResource;
  * @description
  */
 @SpringBootApplication
-@MapperScan(value = "com.mall.account.dal.dao")
-@ComponentScan(value = "com.mall.account")
+@MapperScan(value = "com.mall.ordercenter.dal.dao")
+@ComponentScan(value = "com.mall.ordercenter")
 @ImportResource(value = {"classpath:dubbo.xml"})
-public class AccountApplication {
+public class OrderCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountApplication.class, args);
+        SpringApplication.run(OrderCenterApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.mall.account.test;
+package com.mall.ordercenter.test;
 
 import com.mall.ordercenter.server.OrderCenterApplication;
 import org.junit.After;

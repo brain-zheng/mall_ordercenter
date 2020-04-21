@@ -5,18 +5,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mall</groupId>
-  <artifactId>account</artifactId>
+  <artifactId>ordercenter</artifactId>
   <version>1.0.0</version>
   <modules>
-    <module>account-client</module>
-    <module>account-common</module>
-    <module>account-dal</module>
-    <module>account-server</module>
-    <module>account-service</module>
+    <module>ordercenter-client</module>
+    <module>ordercenter-common</module>
+    <module>ordercenter-dal</module>
+    <module>ordercenter-server</module>
+    <module>ordercenter-service</module>
   </modules>
   <packaging>pom</packaging>
 
-  <name>account</name>
+  <name>ordercenter</name>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -26,8 +26,8 @@
   </parent>
 
   <properties>
-    <account.version>1.0.0</account.version>
-    <account.client.version>1.0.0</account.client.version>
+    <ordercenter.version>1.0.0</ordercenter.version>
+    <ordercenter.client.version>1.0.0</ordercenter.client.version>
     <file_encoding>UTF-8</file_encoding>
   </properties>
 
@@ -130,7 +130,7 @@
   </dependencies>
 
   <build>
-    <finalName>account</finalName>
+    <finalName>ordercenter</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- 跳过单元测试 -->

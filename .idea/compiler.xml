@@ -7,21 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="account-client" />
-        <module name="account-common" />
-        <module name="account-dal" />
-        <module name="account-server" />
-        <module name="account-service" />
+        <module name="ordercenter-client" />
+        <module name="ordercenter-common" />
+        <module name="ordercenter-dal" />
+        <module name="ordercenter-server" />
+        <module name="ordercenter-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="account-client" options="-parameters" />
-      <module name="account-common" options="-parameters" />
-      <module name="account-dal" options="-parameters" />
-      <module name="account-server" options="-parameters" />
-      <module name="account-service" options="-parameters" />
+      <module name="ordercenter-client" options="-parameters" />
+      <module name="ordercenter-common" options="-parameters" />
+      <module name="ordercenter-dal" options="-parameters" />
+      <module name="ordercenter-server" options="-parameters" />
+      <module name="ordercenter-service" options="-parameters" />
     </option>
   </component>
 </project>

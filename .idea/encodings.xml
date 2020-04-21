@@ -2,10 +2,10 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/account-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/account-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/account-dal" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/account-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/account-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordercenter-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordercenter-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordercenter-dal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordercenter-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ordercenter-service" charset="UTF-8" />
   </component>
 </project>

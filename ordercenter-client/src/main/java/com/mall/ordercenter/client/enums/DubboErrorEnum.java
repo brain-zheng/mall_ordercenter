@@ -1,4 +1,4 @@
-package com.mall.account.client.enums;
+package com.mall.ordercenter.client.enums;
 
 public enum DubboErrorEnum {
 

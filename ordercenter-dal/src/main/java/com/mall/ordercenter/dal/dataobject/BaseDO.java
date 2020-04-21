@@ -1,4 +1,4 @@
-package com.mall.account.dal.dataobject;
+package com.mall.ordercenter.dal.dataobject;
 
 import lombok.Data;
 import org.apache.commons.lang3.builder.ToStringBuilder;

@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>account-server</artifactId>
+    <artifactId>ordercenter-server</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    <name>account-server</name>
+    <name>ordercenter-server</name>
 
     <parent>
         <groupId>com.mall</groupId>
-        <artifactId>account</artifactId>
+        <artifactId>ordercenter</artifactId>
         <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -38,18 +38,18 @@
     <dependencies>
         <dependency>
             <groupId>com.mall</groupId>
-            <artifactId>account-client</artifactId>
+            <artifactId>ordercenter-client</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.mall</groupId>
-            <artifactId>account-service</artifactId>
+            <artifactId>ordercenter-service</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>account-client</finalName>
+        <finalName>ordercenter-client</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <!-- 跳过单元测试 -->
