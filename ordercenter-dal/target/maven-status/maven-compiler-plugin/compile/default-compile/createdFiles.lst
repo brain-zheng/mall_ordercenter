@@ -1,8 +1,2 @@
-com/mall/account/dal/dao/BaseDAO.class
-com/mall/account/dal/dao/UserRecvAddressDAO.class
-com/mall/account/dal/dao/UserInfoDAO.class
-com/mall/account/dal/dataobject/AccountDO.class
-com/mall/account/dal/dao/AccountDAO.class
-com/mall/account/dal/dataobject/UserRecvAddressDO.class
-com/mall/account/dal/dataobject/UserInfoDO.class
-com/mall/account/dal/dataobject/BaseDO.class
+com/mall/ordercenter/dal/dao/BaseDAO.class
+com/mall/ordercenter/dal/dataobject/BaseDO.class

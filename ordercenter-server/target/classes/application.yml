@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8092
 
 spring:
   profiles:
@@ -9,7 +9,7 @@ spring:
 dubbo:
   # Dubbo 应用配置
   application:
-    name: account # 应用名
+    name: ordercenter # 应用名
   # Dubbo 注册中心配
   registry:
     address: zookeeper://127.0.0.1:2181 # 注册中心地址。个鞥多注册中心，可见 http://dubbo.apache.org/zh-cn/docs/user/references/registry/introduction.html 文档。

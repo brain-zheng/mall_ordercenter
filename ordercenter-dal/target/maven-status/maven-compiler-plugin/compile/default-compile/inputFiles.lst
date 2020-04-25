@@ -1,8 +1,2 @@
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dao/BaseDAO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dao/UserInfoDAO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dataobject/AccountDO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dataobject/BaseDO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dataobject/UserRecvAddressDO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dataobject/UserInfoDO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dao/AccountDAO.java
-/Users/brain/Desktop/gardDesign/account/account-dal/src/main/java/com/mall/account/dal/dao/UserRecvAddressDAO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/BaseDAO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/BaseDO.java

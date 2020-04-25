@@ -1,3 +1,8 @@
-com/mall/account/client/service/MallUserService.class
-com/mall/account/client/dto/MallUserDTO.class
-com/mall/account/client/enums/DubboErrorEnum.class
+com/mall/ordercenter/client/dto/MallShoppingCartItemDTO.class
+com/mall/ordercenter/client/dto/MallOrderItemDTO.class
+com/mall/ordercenter/client/service/MallOrderService.class
+com/mall/ordercenter/client/enums/DubboErrorEnum.class
+com/mall/ordercenter/client/service/MallOrderItemService.class
+com/mall/ordercenter/client/dto/QueryOrderDTO.class
+com/mall/ordercenter/client/dto/MallOrderDTO.class
+com/mall/ordercenter/client/service/ShoppingCartService.class
