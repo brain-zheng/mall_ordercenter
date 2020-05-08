@@ -5,9 +5,11 @@ import com.mall.ordercenter.dal.dao.MallOrderItemDAO;
 import com.mall.ordercenter.dal.dataobject.MallOrderItemDO;
 import com.mall.ordercenter.service.converter.MallOrderConverter;
 import com.mall.ordercenter.service.converter.MallOrderItemConverter;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -25,11 +27,17 @@ public class MallOrderItemManager {
 
     public List<MallOrderItemDTO> selectByOrderId(Integer orderId) {
         List<MallOrderItemDO>  mallOrderItemDOS = mallOrderItemDAO.selectByOrderId(orderId);
+        if (mallOrderItemDOS == null) {
+            return new ArrayList<>();
+        }
         return mallOrderItemDOS.stream().map(MallOrderItemConverter::do2dto).collect(Collectors.toList());
     }
 
     public List<MallOrderItemDTO> selectByOrderIds(List<Integer> orderIds) {
         List<MallOrderItemDO> mallOrderItemDOS = mallOrderItemDAO.selectByOrderIds(orderIds);
+        if (mallOrderItemDOS == null) {
+            return new ArrayList<>();
+        }
         return mallOrderItemDOS.stream().map(MallOrderItemConverter::do2dto).collect(Collectors.toList());
     }
 

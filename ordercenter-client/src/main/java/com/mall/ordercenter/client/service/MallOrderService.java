@@ -1,9 +1,7 @@
 package com.mall.ordercenter.client.service;
 
-import com.mall.common.service.util.PageQueryUtil;
 import com.mall.ordercenter.client.dto.MallOrderDTO;
 import com.mall.ordercenter.client.dto.QueryOrderDTO;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 

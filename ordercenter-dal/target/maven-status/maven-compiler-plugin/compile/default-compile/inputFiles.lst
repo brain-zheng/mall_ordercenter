@@ -1,2 +1,8 @@
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallOrderDO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallOrderItemDO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallShoppingCartItemDO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderDAO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderItemDAO.java
 /Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/BaseDAO.java
 /Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/BaseDO.java
+/Users/brain/Desktop/gardDesign/orderCenter/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/ShoppingCartDAO.java

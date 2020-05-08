@@ -7,7 +7,13 @@
        http://dubbo.apache.org/schema/dubbo
        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
+    <dubbo:service ref="ShoppingCartServiceImpl" interface="com.mall.ordercenter.client.service.ShoppingCartService"
+                   version="1.0.0" retries="0" />
 
+    <dubbo:service ref="MallOrderServiceImpl" interface="com.mall.ordercenter.client.service.MallOrderService"
+                   version="1.0.0" retries="0" />
 
+    <dubbo:service ref="MallOrderItemServiceImpl" interface="com.mall.ordercenter.client.service.MallOrderItemService"
+                   version="1.0.0" retries="0" />
 
 </beans>

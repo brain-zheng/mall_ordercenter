@@ -1,71 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aafb830e-d545-4048-9e80-7a63dd5c778d" name="Default Changelist" comment="mall商城用户登录">
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/MallOrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/MallOrderItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/MallShoppingCartItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/QueryOrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/ShoppingCartDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallOrderDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallOrderItemDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallShoppingCartItemDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/ShoppingCartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/converter/MallOrderConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/converter/MallOrderItemConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/converter/ShoppingCartConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/MallOrderItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/MallOrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/ShoppingCartServiceImpl.java" afterDir="false" />
+    <list default="true" id="aafb830e-d545-4048-9e80-7a63dd5c778d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/account-client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/classes/META-INF/account-client.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/classes/com/mall/account/client/dto/MallUserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/classes/com/mall/account/client/enums/DubboErrorEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/classes/com/mall/account/client/service/MallUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-common/target/account-client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-client/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-common/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/ordercenter.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/ordercenter.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/account-client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/application-dal.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-dal/target/classes/application-dal.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/com/mall/account/dal/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/com/mall/account/dal/dao/MallUserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/com/mall/account/dal/dataobject/BaseDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/com/mall/account/dal/dataobject/MallUserDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/mapper/MallUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/classes/sql/account.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-dal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ordercenter-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-dal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/src/main/resources/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/src/main/resources/dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/account-client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ordercenter-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/classes/com/mall/account/server/AccountApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ordercenter-server/target/classes/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/classes/dubbo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/test-classes/com/mall/account/test/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-service/target/account-client.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-service/target/classes/com/mall/account/service/converter/MallUserConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-service/target/classes/com/mall/account/service/manager/MallUserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-service/target/classes/com/mall/account/service/service/MallUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordercenter-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ordercenter-service/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordercenter-server/src/main/java/com/mall/ordercenter/server/OrderCenterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +68,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/MallOrderServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/ShoppingCartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+            <state relative-caret-position="345">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,24 +82,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="421">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2041#2042#0" expanded="true" />
-                <element signature="e#2068#2069#0" expanded="true" />
+                <element signature="e#2094#2095#0" expanded="true" />
                 <element signature="e#2143#2144#0" expanded="true" />
-                <element signature="e#2177#2178#0" expanded="true" />
+                <element signature="e#2195#2196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderDAO.java">
+        <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+            <state relative-caret-position="570">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/ShoppingCartServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,10 +120,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderMapper.xml">
+        <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/ShoppingCartMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="246" column="22" selection-start-line="246" selection-start-column="22" selection-end-line="246" selection-end-column="22" />
+            <state relative-caret-position="388">
+              <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2129#2130#0" expanded="true" />
+                <element signature="e#2198#2199#0" expanded="true" />
+                <element signature="e#2251#2252#0" expanded="true" />
+                <element signature="e#2306#2307#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,6 +163,7 @@
       <find>account</find>
       <find>Long</find>
       <find>long</find>
+      <find>selectByUserId</find>
     </findStrings>
     <replaceStrings>
       <replace>ordercenter</replace>
@@ -217,17 +200,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/account.sql" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/application-dal.yml" />
-        <option value="$PROJECT_DIR$/ordercenter-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ordercenter-server/src/main/java/com/mall/ordercenter/server/OrderCenterApplication.java" />
         <option value="$PROJECT_DIR$/ordercenter-server/src/test/java/com/mall/ordercenter/test/BaseTest.java" />
         <option value="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/MallShoppingCartItemDTO.java" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallShoppingCartItemDO.java" />
         <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/converter/ShoppingCartConverter.java" />
-        <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/ordercenter.sql" />
         <option value="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/ShoppingCartService.java" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/ShoppingCartDAO.java" />
-        <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/ShoppingCartMapper.xml" />
         <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/ShoppingCartServiceImpl.java" />
         <option value="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/MallOrder.java" />
@@ -246,12 +226,15 @@
         <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/MallOrderItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderItemMapper.xml" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderItemDAO.java" />
-        <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java" />
-        <option value="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java" />
         <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/MallOrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderDAO.java" />
-        <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java" />
         <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java" />
+        <option value="$PROJECT_DIR$/ordercenter-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java" />
+        <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java" />
+        <option value="$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java" />
+        <option value="$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/ordercenter.sql" />
       </list>
     </option>
   </component>
@@ -274,11 +257,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ordercenter-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ordercenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ordercenter-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ordercenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -298,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,297 +288,12 @@
               <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
               <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dal" type="462c0819:PsiDirectoryNode" />
-              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-dal" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orderCenter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderCenter" type="462c0819:PsiDirectoryNode" />
-              <item name="ordercenter-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -607,13 +304,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587815071013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587887180213" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -635,23 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountApplication">
-    <configuration name="UserInfoDAOTest.getByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ordercenter-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mall.account.test.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mall.account.test.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mall.account.test.dao.UserInfoDAOTest" />
-      <option name="METHOD_NAME" value="getByIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OrderCenterApplication">
     <configuration name="UserRecvAddressDAOTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ordercenter-server" />
       <extension name="coverage">
@@ -760,13 +442,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ordercenter-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mall.ordercenter.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mall.ordercenter.server.OrderCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderCenterApplication" />
         <item itemvalue="Spring Boot.AccountApplication" />
         <item itemvalue="JUnit.UserRecvAddressDAOTest.updateTest" />
         <item itemvalue="JUnit.UserRecvAddressDAOTest.getByIdTest" />
         <item itemvalue="JUnit.UserRecvAddressDAOTest.createTest" />
-        <item itemvalue="JUnit.UserInfoDAOTest.getByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -789,7 +484,8 @@
       <workItem from="1587282878698" duration="205000" />
       <workItem from="1587456620584" duration="41000" />
       <workItem from="1587457104179" duration="25694000" />
-      <workItem from="1587815495071" duration="979000" />
+      <workItem from="1587815495071" duration="1382000" />
+      <workItem from="1587823370269" duration="5806000" />
     </task>
     <task id="LOCAL-00001" summary="mall商城用户登录">
       <created>1587211244614</created>
@@ -798,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587211244614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mall 订单模块">
+      <created>1587816636168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587816636169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -834,13 +537,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83763000" />
+    <option name="totallyTimeSpent" value="89972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.29685265" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979592" visible="true" weight="0.26251787" />
       <window_info id="Structure" order="1" sideWeight="0.5020408" side_tool="true" weight="0.2003231" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -851,7 +553,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.68192774" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25662652" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -925,17 +627,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mall商城用户登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="mall商城用户登录" />
+    <MESSAGE value="mall 订单模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="mall 订单模块" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/enums/DubboErrorEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dataobject/MallUserDO.java" />
     <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/dto/MallUserDTO.java" />
     <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/account/service/converter/MallUserConverter.java" />
     <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/account/service/manager/MallUserManager.java" />
@@ -999,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1025,18 +713,6 @@
           <caret column="17" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-server/src/main/java/com/mall/ordercenter/server/OrderCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1075,55 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/ordercenter.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/ShoppingCartDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/ShoppingCartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="143" column="22" lean-forward="true" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2251#2252#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/ShoppingCartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/ShoppingCartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1217,16 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/java/com/mall/ordercenter/dal/dao/MallOrderItemDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1264,34 +885,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/MallOrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="1335">
           <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2041#2042#0" expanded="true" />
-            <element signature="e#2068#2069#0" expanded="true" />
-            <element signature="e#2143#2144#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="246" column="22" selection-start-line="246" selection-start-column="22" selection-end-line="246" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1305,10 +915,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/MallOrderService.java">
+    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/MallOrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="3690">
+          <caret line="246" column="22" selection-start-line="246" selection-start-column="22" selection-end-line="246" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-server/src/main/java/com/mall/ordercenter/server/OrderCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-client/src/main/java/com/mall/ordercenter/client/service/ShoppingCartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/ShoppingCartManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2129#2130#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-service/target/classes/com/mall/ordercenter/service/manager/MallOrderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderItemManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-service/target/classes/com/mall/ordercenter/service/manager/ShoppingCartManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/manager/MallOrderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2041#2042#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/mapper/ShoppingCartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-dal/src/main/resources/sql/ordercenter.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordercenter-service/src/main/java/com/mall/ordercenter/service/service/ShoppingCartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1326,7 +1034,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1369,7 +1076,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>account-dal</last-edited>
+          <last-edited>orderCenter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,2 +1,8 @@
+com/mall/ordercenter/dal/dao/MallOrderItemDAO.class
+com/mall/ordercenter/dal/dataobject/MallOrderDO.class
+com/mall/ordercenter/dal/dao/MallOrderDAO.class
+com/mall/ordercenter/dal/dataobject/MallShoppingCartItemDO.class
+com/mall/ordercenter/dal/dao/ShoppingCartDAO.class
 com/mall/ordercenter/dal/dao/BaseDAO.class
+com/mall/ordercenter/dal/dataobject/MallOrderItemDO.class
 com/mall/ordercenter/dal/dataobject/BaseDO.class

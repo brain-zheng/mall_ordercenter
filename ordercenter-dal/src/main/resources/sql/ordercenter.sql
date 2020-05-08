@@ -10,6 +10,19 @@ CREATE TABLE `shopping_cart_item` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `mall_order_item`;
+CREATE TABLE `tb_newbee_mall_order_item`  (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '订单关联购物项主键id',
+  `order_id` bigint(20) NOT NULL DEFAULT 0 COMMENT '订单主键id',
+  `goods_id` bigint(20) NOT NULL DEFAULT 0 COMMENT '关联商品id',
+  `goods_name` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '' COMMENT '下单时商品的名称(订单快照)',
+  `goods_cover_img` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '' COMMENT '下单时商品的主图(订单快照)',
+  `selling_price` int(11) NOT NULL DEFAULT 1 COMMENT '下单时商品的价格(订单快照)',
+  `goods_count` int(11) NOT NULL DEFAULT 1 COMMENT '数量(订单快照)',
+  `create_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
 DROP TABLE IF EXISTS `mall_order`;
 CREATE TABLE `mall_order`  (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '订单表主键id',
@@ -27,5 +40,5 @@ CREATE TABLE `mall_order`  (
   `is_deleted` tinyint(4) NOT NULL DEFAULT 0 COMMENT '删除标识字段(0-未删除 1-已删除)',
   `create_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `update_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '最新修改时间',
-  PRIMARY KEY (``) USING BTREE
+  PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;

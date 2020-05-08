@@ -7,6 +7,7 @@ import com.mall.ordercenter.service.converter.ShoppingCartConverter;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -43,6 +44,9 @@ public class ShoppingCartManager {
 
     public List<MallShoppingCartItemDTO> selectByUserId(Integer mallUserId, Integer number) {
         List<MallShoppingCartItemDO> mallShoppingCartItemDOS = shoppingCartDAO.selectByUserId(mallUserId, number);
+        if (mallShoppingCartItemDOS == null) {
+            return new ArrayList<>();
+        }
         return mallShoppingCartItemDOS.stream().map(ShoppingCartConverter::do2dto).collect(Collectors.toList());
     }
 
